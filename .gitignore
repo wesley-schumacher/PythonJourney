@@ -1,30 +1,30 @@
-[200~# .gitignore - Informs git as to which files to ignore
-#              while adding or committing. This is 
-#              #              particularly useful for ignoring autosave
-#              #              files, compiled binaries, etc.
-#              #
-#              # surya.manikhandan 12/2/2022
+# .gitignore - Informs git as to which files to ignore while adding or committing. This is 
+#              particularly useful for ignoring autosave
+#              files, compiled binaries, etc.
 #
-#              # MATLAB autosave files (Windows).
-#              *.asv
-#
-#              # MATLAB autosave files (*NIX, MacOS)
-#              *.m~
-#
-#              # MEX Binaries (Windows, *NIX, MacOS)
-#              *.mex*
-#
-#              # Data xml files (Ref src/regExcel.m)
-#              data.xml
-#              data_with_formatting.xml
-#
-#              # Output Excel files (Ref regExcel.m)
-#              out.xlsx
-#
-#              #ipy Checkpoints
-#              .ipynb_checkpoints/
-#              :w# Object file
-*.o
+# wesley.schumacher 12/21/2024
 
-# Ada Library Information
-*.ali
+              # MATLAB autosave files (Windows).
+              *.asv
+
+              # MATLAB autosave files (*NIX, MacOS)
+              *.m~
+
+              # MEX Binaries (Windows, *NIX, MacOS)
+              *.mex*
+
+              # Data xml files (Ref src/regExcel.m)
+              data.xml
+              data_with_formatting.xml
+
+              # Output Excel files (Ref regExcel.m)
+              out.xlsx
+
+              #ipy Checkpoints
+              .ipynb_checkpoints/
+       
+	      # Object file
+	      *.o
+
+	      # Ada Library Information
+  	      *.ali
